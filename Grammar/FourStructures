@@ -1,0 +1,98 @@
+/*
+    	int count=1;
+    	for (int j=0;j<2;j++){
+        	int randCount = rand.nextInt(3);
+        	int NameNum = rand.nextInt(2);
+		    if (randCount==0){ 
+		    	if (NameNum==0){
+		    	Sentence.add(randomWord("Name")+" who "+simpleSentence()+" "+randomWord("Action Verb")+" "+randomWord("Noun"));
+		    	POSsentence.add("noun");
+		    	POSsentence.add("adjective");
+		    	POSsentence.add("noun");
+		    	POSsentence.add("verb");
+		    	POSsentence.add("noun");
+		    	count++;
+		    	}
+		    	else{
+		    		Sentence.add(randomWord("Noun")+" that "+randomWord("Linking Verb")+" "
+		    						+randomWord("Action Verb")+" to "+randomWord("Present Verbs")
+		    						+" "+randomWord("Action Verb")+" "+randomWord("Noun"));
+		    		POSsentence.add("noun");
+		    		POSsentence.add("adjective");
+		    		POSsentence.add("verb");
+		    		POSsentence.add("verb");
+		    		//WHAT PART OF SPEECH IS TO?????
+		    		POSsentence.add("verb");
+		    		POSsentence.add("noun");
+		    		
+		    		count++;
+		    	}
+		    }
+		    if (randCount==1){
+		    	if (NameNum==0){
+			    	Sentence.add(randomWord("Name")+", "+randomWord("Noun")+", who "+simpleSentence()
+			    			+ " " +randomWord("Linking Verb")+" "+randomWord("Adjective"));
+			    	POSsentence.add("noun");
+			    	POSsentence.add("punctuation");
+			    	POSsentence.add("noun");
+			    	POSsentence.add("punctuation");
+			    	POSsentence.add("adjective");
+			    	POSsentence.add("noun");
+			    	POSsentence.add("verb");
+			    	POSsentence.add("verb");
+			    	POSsentence.add("adjective");
+			    	
+			    	count++;
+			    	}
+			    	else{
+			    		Sentence.add(randomWord("Noun"));
+			    		Sentence.add(" ");
+			    		Sentence.add("whose");
+			    		Sentence.add(" ");
+			    		Sentence.add(randomWord("Noun"));
+			    		Sentence.add(" ");
+			    		Sentence.add(randomWord("Linking Verb"));
+			    		Sentence.add(" ");
+			    		Sentence.add(randomWord("Adjective"));
+			    		Sentence.add(" ");
+			    		Sentence.add(randomWord("Linking Verb"));
+			    		Sentence.add(" ");
+			    		Sentence.add(randomWord("Adjective"));
+			    		
+			    		POSsentence.add("noun");
+			    		POSsentence.add("adjective");
+			    		POSsentence.add("noun");
+			    		POSsentence.add("verb");
+			    		POSsentence.add("adjective");
+			    		POSsentence.add("verb");
+			    		POSsentence.add("adjective");
+			    		
+			    		count++;
+			    	}
+		    }
+		    if (randCount==2){
+		    	Sentence.add(randomWord("Name"));
+		    	Sentence.add(" ");
+		    	Sentence.add(randomWord("IO Verb"));
+		    	Sentence.add(" ");
+		    	Sentence.add(randomWord("Name"));
+		    	Sentence.add(" ");
+		    	Sentence.add("whose");
+		    	Sentence.add(" ");
+		    	Sentence.add("Noun1");
+		    	Sentence.add(" ");
+		    	Sentence.add(randomWord("Linking Verb"));
+		    	Sentence.add(" ");
+		    	Sentence.add(randomWord("Adjective"));
+		    	
+		    	POSsentence.add("noun");
+		    	POSsentence.add("verb");
+		    	POSsentence.add("noun");
+		    	POSsentence.add("noun");
+		    	POSsentence.add("adjective");
+		    	POSsentence.add("noun");
+		    	POSsentence.add("verb");
+		    	POSsentence.add("adjective");
+		    }
+    	}
+    	*/
